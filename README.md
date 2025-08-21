@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
@@ -48,3 +49,7 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+=======
+# Animal-Guessing-App
+Animal Guessing App is a mobile application developed in React Native that combines learning and entertainment about the animal world. The app provides information about different animals and includes an interactive game where users must guess the animal from a partial image. It also features a login system.
+>>>>>>> 31cce915c2851ec413d2ac807880d7a7ef1d154e
