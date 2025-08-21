@@ -1,55 +1,54 @@
-<<<<<<< HEAD
-# Welcome to your Expo app 👋
+# Animal Guessing App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Animal Guessing App** is a mobile application developed in **React Native**.  
+The app provides information about different animals and includes an interactive game where users must guess the animal from a **partial image**.  
 
-## Get started
+> ⚠️ **Important Note:** This repository contains **only the frontend** (React Native).  
+> The backend (.NET API) is **not included** for security reasons. Features like login, animal database access **will not work** without a properly configured backend.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+- **Animal database:** Detailed information about various species (requires backend).  
+- **Guessing game:** Identify the animal from a partial image.  
+- **Login system:** User registration and authentication (requires backend).  
+- **Game modes and hints:** Different difficulty levels and optional hints.  
+- **User-friendly interface:** Intuitive design suitable for all ages.  
+- **Cross-platform compatibility:** Works on both iOS and Android via React Native.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## Dependencies
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Frontend (React Native / Expo)
+- `react` / `react-native` – Core libraries for building the app.
+- `expo` – Expo framework for development and building.
+- `expo-router` – Handles navigation and routing.
+- `@react-navigation/*` – Navigation libraries (drawer, bottom-tabs, elements).
+- `axios` – HTTP client to communicate with backend (configure your own backend).  
+- `react-hook-form` – Form handling.
+- `@expo/vector-icons` – Icons library.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Dev Dependencies
+- `typescript`, `@babel/core`, `@types/react`, `eslint`, `eslint-config-expo`  
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## Scripts
 
+- `npm start` → `expo start` (launch app in Expo)
+- `npm run android` → Run on Android emulator/device
+- `npm run ios` → Run on iOS simulator/device
+- `npm run web` → Run app in web browser
+- `npm run lint` → Run ESLint checks
+- `npm run reset-project` → Custom script to reset project (`./scripts/reset-project.js`)
+
+---
+
+## Setup Instructions
+
+### 1. Clone the repository
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-=======
-# Animal-Guessing-App
-Animal Guessing App is a mobile application developed in React Native that combines learning and entertainment about the animal world. The app provides information about different animals and includes an interactive game where users must guess the animal from a partial image. It also features a login system.
->>>>>>> 31cce915c2851ec413d2ac807880d7a7ef1d154e
+git clone https://github.com/LuisPerezRodriguez/Animal-Guessing-App.git
+cd Animal-Guessing-App
