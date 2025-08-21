@@ -31,8 +31,12 @@ The app provides information about different animals and includes an interactive
 - `@expo/vector-icons` – Icons library.
 - @react-native-async-storage/async-storage – Local storage to save user preferences, session info, and game progress.
 
-### Dev Dependencies
-- `typescript`, `@babel/core`, `@types/react`, `eslint`, `eslint-config-expo`  
+### Play the game
+Login
+Navigate to game screen
+Select your desired gamemode
+-Easy mode: select 1 of the 4 available options
+-Hard mode: type the name of the animal that you see
 
 ---
 
